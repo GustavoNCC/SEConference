@@ -10,6 +10,8 @@ RF-04. El sistema permitira cancelar el registro de un asistente a una actividad
 
 RF-05. El sistema permitira registrar ponenetes del congreso
 
+RF-06. El sistema deberá registar ponentes del congreso. Después de verificar que los datos estén completos, deberá comprobar si el correo ya está registrado. Si el correo ya existe, mostrará una advertencia y no hará el nuevo registro.
+
 ## Requerimientos no funcionales
 RNF-01. La interfaz debe ser accesible desde un navegador web 
 
