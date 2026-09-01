@@ -1,9 +1,14 @@
+```mermaid
 flowchart TD
-A([INICIO]) --> B[/Capturar datos del asistente/]
+    A([Inicio])
+    A --> B[/Capturar datos del asistente/]
     B --> C{¿Datos completos?}
-    C -- Sí --> D[Registro asistente]
+
+    C -->|Sí| D[Registrar asistente]
     D --> E[/Mostrar confirmación/]
-    C -- No --> F[/Mostrar datos faltantes/]
+
+    C -->|No| F[/Mostrar datos faltantes/]
     F --> E
-    E --> G([FIN])
-    F --> E 
+
+    E --> G([Fin]) 
+    ```
