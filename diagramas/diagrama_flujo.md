@@ -1,5 +1,4 @@
 ```mermaid
-
 flowchart TD
 A([INICIO]) --> B[/Registrar/]
     B --> C{¿Datos completos?}
