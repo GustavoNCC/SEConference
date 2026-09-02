@@ -1,14 +1,12 @@
 ```mermaid
 flowchart TD
-    A([Inicio])
-    A --> B[/Capturar datos del asistente/]
+A([INICIO]) --> B[/Registrar/]
     B --> C{¿Datos completos?}
-
-    C -->|Sí| D[Registrar asistente]
-    D --> E[/Mostrar confirmación/]
-
-    C -->|No| F[/Mostrar datos faltantes/]
-    F --> E
-
-    E --> G([Fin]) 
+    C -- Sí --> D{¿El correo exite?}
+    D -- Sí --> E[Advertencia]
+    D -- No --> H[Registro]
+    C -- No --> F[Mostrar datos faltantes]
+    H --> G
+    F --> G
+    E --> G([FIN])
     ```
