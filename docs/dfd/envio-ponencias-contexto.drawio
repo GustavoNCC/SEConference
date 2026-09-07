@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ZXbf-4UUsqPLA1oCyOyS" name="Página-1">
-        <mxGraphModel dx="649" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="649" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -82,6 +82,25 @@
                 <mxCell id="17" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Evaluación&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
                     <mxGeometry x="-0.1733" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Reporte de similitud&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                    <mxGeometry x="0.254" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Servicio de similitud" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="480" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.381;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Manuscrito para análisis&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                    <mxGeometry x="0.1681" y="1" relative="1" as="geometry">
+                        <mxPoint x="49" y="14" as="offset"/>
                     </mxGeometry>
                 </mxCell>
             </root>
