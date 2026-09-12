@@ -12,6 +12,8 @@ RF-05. El sistema permitira registrar ponenetes del congreso
 
 RF-06. El sistema deberá registar ponentes del congreso. Después de verificar que los datos estén completos, deberá comprobar si el correo ya está registrado. Si el correo ya existe, mostrará una advertencia y no hará el nuevo registro.
 
+RF-07: El sistema deberá permitir registrar a un ponente mediante un formulario, validar la información ingresada y generar el wireframe del proceso de registro.
+
 ## Requerimientos no funcionales
 RNF-01. La interfaz debe ser accesible desde un navegador web 
 
